@@ -1,0 +1,18 @@
+{
+  "name": "ts-canvas",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/wuhaohao1234/ts-canvas.git",
+  "author": "wuhaohao1234 <1611499758@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "npx tsc -w",
+    "lint": "npx tslint --project tslint.json",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  }
+}
